@@ -1,0 +1,35 @@
+GET http://localhost:3000/players/
+
+
+
+###
+GET http://localhost:3000/players/4/
+
+
+
+###
+PUT http://localhost:3000/players/4/
+Content-Type: application/json
+
+{
+    "playerName": "Sarath"
+}
+
+
+###
+GET http://localhost:3000/matches/4/
+
+
+
+###
+GET http://localhost:3000/players/1/matches
+
+
+
+###
+GET http://localhost:3000/matches/10/players
+
+
+
+###
+GET http://localhost:3000/players/1/playerScores
